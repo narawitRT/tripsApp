@@ -1,0 +1,21 @@
+cd json-server
+npm install
+npm start
+
+json-server : localhost:9000
+
+cd api-gateway
+npm install
+npm start
+
+api-gateway : localhost:1234
+
+web มี 2 version 
+1.requirement version สร้างตาม requirement ตาม design.jpg
+2.my own version สร้างในสไตล์ของผมเอง
+
+cd web
+npm insstall
+npm start
+
+react-web  : localhost:3000

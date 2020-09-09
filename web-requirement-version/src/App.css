@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  background-color: #fffafa;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+*:focus {
+  outline: none;
+  }
+
+::placeholder {
+  color: #b8b8b8;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
